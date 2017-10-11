@@ -1,0 +1,14 @@
+@import 'base/base';
+@import 'base/buttons';
+
+.container {
+  background-color: #abcdef;
+  padding: 20px;
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  .header {
+    font-family: Helvetica, Arial;
+    color: #333;
+  }
+}

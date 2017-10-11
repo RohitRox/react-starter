@@ -1,0 +1,11 @@
+@import './variables';
+
+body {
+  background-color: $body-bg-color;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

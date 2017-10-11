@@ -1,0 +1,15 @@
+.about{
+  p {
+    color: #1e568d;
+  }
+  .about-list {
+    li {
+      border-bottom: 1px solid #a3bcd5;
+      padding: 4px;
+      color: #1e568d;
+    }
+    li:last-child {
+      border-bottom: 0;
+    }
+  }
+}
