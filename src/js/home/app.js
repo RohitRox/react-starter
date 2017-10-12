@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-
-import Home from './components/home';
 
 import 'home.scss';
 
+import Home from './components/home';
+
 ReactDOM.render(
   <Home />,
-  document.getElementById('app')
+  document.getElementById('app'),
 );

@@ -9,6 +9,7 @@ Get [Nvm](https://github.com/creationix/nvm) and [Yarn](https://github.com/yarnp
     $ yarn build # regular build, at ./build, can be configured at ./webpack.config.js#output section
     $ yarn build:prod # production optimized build
     $ yarn stat # reports stats of the build
+    $ yarn lint # run linter
 
 # WHAT'S IN HERE
 

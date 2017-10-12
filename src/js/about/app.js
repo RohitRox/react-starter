@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-
-import About from './components/about';
 
 import 'about.scss';
 
+import About from './components/about';
+
+
 ReactDOM.render(
   <About />,
-  document.getElementById('app')
+  document.getElementById('app'),
 );

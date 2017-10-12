@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: Path.resolve('./build/javascripts/'),
     filename: '[name]_bundle.js',
-    publicPath: '/javascripts/',
+    publicPath: '/javascripts/'
   },
   resolve: {
     extensions: ['.js', '.jsx'],
