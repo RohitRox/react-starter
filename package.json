@@ -1,7 +1,7 @@
 {
   "name": "react-starter",
   "version": "1.0.0",
-  "description": "ES6+React16+Mobx+ESLint+Jest+Enzyme+Webpack2+SCSS",
+  "description": "ES6+React16+Mobx+ESLint+Jest+Enzyme+Webpack3+SCSS",
   "main": "index.js",
   "author": "RohitRox",
   "license": "MIT",
