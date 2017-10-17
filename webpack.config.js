@@ -4,6 +4,9 @@ const Webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
+  "node": {
+    "fs": "empty"
+  },
   context: Path.resolve('./src/'),
   entry: {
     home: './js/home/app.js',
