@@ -3,7 +3,12 @@ import 'base/form.scss';
 
 import './style.scss';
 
-export default class Home extends Component {
+export default class About extends Component {
+  onSubmit = (e) => {
+    e.preventDefault();
+    console.log(this);
+  }
+
   render() {
     return (
       <div className='container about'>
@@ -24,7 +29,7 @@ export default class Home extends Component {
         <hr />
         <br />
         <div>
-          <form className='form-horz'>
+          <form className='form-horz' onSubmit={this.onSubmit}>
             <input type='text' placeholder='We love feedback' />
             <button>GO</button>
           </form>
