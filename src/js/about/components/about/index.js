@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import 'base/form.scss';
 
+import 'base/base.scss';
+import 'base/form.scss';
+import 'base/buttons.scss';
 import './style.scss';
 
 export default class About extends Component {

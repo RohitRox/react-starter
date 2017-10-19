@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import 'base/base.scss';
+import 'base/buttons.scss';
 import './style.scss';
 
 export default class Home extends Component {
