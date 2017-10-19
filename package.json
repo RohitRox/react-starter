@@ -15,7 +15,7 @@
   },
   "jest": {
     "rootDir": "./src",
-    "setupTestFrameworkScriptFile": "../tests/__test_support__",
+    "setupTestFrameworkScriptFile": "../test_support/__test_helpers__",
     "moduleNameMapper": {
       "\\.(css|scss)$": "identity-obj-proxy"
     }
