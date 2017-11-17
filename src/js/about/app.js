@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import 'base/base.scss';
-import 'about.scss';
+import './styles.scss';
 
 import About from './components/about';
 

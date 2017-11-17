@@ -1,6 +1,7 @@
-// @import 'base/base';
-// @import 'base/buttons';
-
+@font-face {
+  font-family: QuickSand;
+  src: url("../../fonts/Quicksand-Regular.otf") format("opentype");
+}
 .container {
   background-color: #abcdef;
   padding: 20px;
@@ -10,5 +11,6 @@
   .header {
     font-family: Helvetica, Arial;
     color: #fff;
+    font-family: QuickSand;
   }
 }

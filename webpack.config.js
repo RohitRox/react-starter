@@ -13,9 +13,9 @@ module.exports = {
     about: './js/about/app.js'
   },
   output: {
-    path: Path.resolve('./build/javascripts/'),
-    filename: '[name]_bundle.js',
-    publicPath: '/javascripts/'
+    path: Path.resolve('build'),
+    filename: 'javascripts/[name]_bundle.js',
+    publicPath: 'build'
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -31,6 +31,11 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        loader: "url-loader",
+        options: {limit: 10000, name: "fonts/[name].[ext]", publicPath: '../'}
       },
       {
         test: /\.scss$/,
@@ -53,11 +58,11 @@ module.exports = {
   plugins: [
     new Webpack.optimize.CommonsChunkPlugin({
       name: 'commons',
-      filename: 'commons_bundle.js',
+      filename: 'javascripts/commons_bundle.js',
       minChunks: 2,
     }),
     new ExtractTextPlugin({
-      filename: '../stylesheets/[name]_bundle.css',
+      filename: 'stylesheets/[name]_bundle.css',
       allChunks: true
     })
   ]
