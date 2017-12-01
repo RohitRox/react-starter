@@ -2,3 +2,8 @@ $font-stack: Helvetica, sans-serif;
 $body-bg-color: #EDE6E3;
 $primary-bg-color: #F06449;
 $primary-color: #DADAD9;
+
+@font-face {
+  font-family: QuickSand;
+  src: url("../../fonts/Quicksand-Regular.otf") format("opentype");
+}
